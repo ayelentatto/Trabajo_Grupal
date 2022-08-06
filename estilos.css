@@ -8,7 +8,7 @@ body {
 }
 
 .Botones {
-  background-color: #555;
+  background-color: #111;
   color: white;
   float: left; /* Los coloca en linea */
   border: none;
@@ -29,7 +29,7 @@ body {
   height: 100%;
 }
 
-#Home {background-color: red;}
+#Home {background-color: white;}
 #News {background-color: green;}
 #Contact {background-color: blue;}
 #About {background-color: orange;}
