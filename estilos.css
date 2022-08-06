@@ -1,0 +1,35 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box /* box-sixing nos permite controlar las dimensiones de los elementos, siendo que border-box hace que nosotros coloquemos un ancho el cual sera respetado al modificar los tamaños */
+}
+
+.Botones {
+  background-color: #555;
+  color: white;
+  float: left; /* Los coloca en linea */
+  border: none;
+  cursor: pointer;
+  padding: 1.5em;
+  font-size: 1em;
+  width: 25%;
+}
+
+.Botones:hover {
+  background-color: #777;
+}
+
+.seccion {
+  color: white;
+  display: none;
+  padding: 4em;
+  height: 100%;
+}
+
+#Home {background-color: red;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}

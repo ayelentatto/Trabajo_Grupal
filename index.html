@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>ScrumWorld</title>
+</head>
+<body>
+    <button class="Botones" onclick="openPage('Home', this, 'red')" id="inicio">Inicio</button> <!-- onclick es un atributo que se activa cuando se realiza la accion, en este caso es hacer click sobre un boton -->
+    <button class="Botones" onclick="openPage('News', this, 'green')">Equipo</button>
+    <button class="Botones" onclick="openPage('Contact', this, 'blue')">Trabajo</button>
+    <button class="Botones" onclick="openPage('About', this, 'orange')">About</button>
+    
+    <div id="Home" class="seccion">
+      <h3>¿Qué es la metodología SCRUM?</h3>
+      <p>Es un conjunto de metodos agiles y adaptables utilizados lograr el cumplimiento de una tarea de la forma mas rapida eficas y de mayor calidad posible en grupo.</p>
+    </div>
+    
+    <div id="News" class="seccion">
+      <h1>"Jerarquía"</h1>
+      <h2>Product owner</h2>
+      <p>Es el representante del cliente dentro del equipo de trabajo, el cual se encarga de trasmitir de forma clara las necesidades del cliente al "formlario" (Product Backlog)</p> 
+      <h2>Scrum master</h2>
+      <p>Es la "cabeza" del equipo, no solo se asegra de u se entienda el pedido sino qu es el que controla que se sigan las reglas del scrum</p>
+      <h2>Development team</h2>
+      <p>Son un equipo autogestionado y organizado, los cuales son responsables de desarrollar el pedido (el sprint)</p>
+    </div>
+    
+    <div id="Contact" class="seccion">
+      <h3>Sprint</h3>
+      <p>Es una sucesion de eventos con una duracion maxima de un mes, en el cual se llevan a cabo tareas diarias, revisiones y reunionescon el fin de completar la meta del sprint. Además, dichos sprint se realiza uno detras de otro, en los cualesno se cambian las metas y se exige una contancia en la calidad de trabajo</p>
+    </div>
+    
+    <div id="About" class="seccion">
+      <h3>¿Como es toda trayectoria?</h3>
+      <p>Who we are and what we do.</p>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
